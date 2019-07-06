@@ -1,0 +1,72 @@
+.container{
+	padding-bottom: 20px;
+}
+#ul_flex{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	margin: 40px 0px;
+}
+#ul_flex li:first-child{margin-left: 10px;}
+#ul_flex li{
+	margin: 0 20px;
+}
+#ul_flex a{
+	color: #cccccc;
+	font-size: 1rem;
+}
+.font-w a{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	color: #cccccc;
+	margin-bottom: 15px;
+}
+.container p,.container p a,.container li a,.container li,#span,#span a{
+	color: #CCCCCC;
+	font-size:12px ;	
+}
+.container p{
+	line-height: 3px;
+}
+.font-w a:nth-child(2):after{
+	content: "|";
+	margin: 0 5px;
+}
+.font-w a:nth-child(2):before{
+	content: "|";
+	margin: 0 5px;
+}
+.container [class~=ul_img]{
+	display: inline-block;
+	width: 170px;
+}
+.container [class~=ul_img]:after{
+	content: "";
+	display: inline-block;
+	clear: both;
+}
+.container [class~=ul_img] li{
+	height: 30px;
+	float: left;
+}
+.container [class~=ul_img] li+li{
+	margin-left: 8px;
+}
+.container #span{
+	display: inline-block;
+}
+.container .hr{
+	font-size: 1.2rem;
+	color: white;
+	background: white;
+}
+.container [class~=ul_img] li:last-child{line-height: 30px;}
+.container a:hover{color: white;}
+@media screen and (max-width:400px ) {
+	.container #ul_flex a{font-size: 0.6rem;}
+	
+}
+@media screen and (max-width:780px ){
+	.container p{line-height: 20px}
+}

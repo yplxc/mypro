@@ -1,0 +1,95 @@
+/*底部*/
+
+#footer{
+    width: 550px;
+    margin: 150px auto;
+}
+/*底部log*/
+#log2{
+    width: 200px;
+    height: 105px;
+    margin: auto;
+}
+#ul{
+    list-style: none;
+    width: 100%;
+    margin: 20px auto;
+}
+#ul:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#ul>li{
+    width: 90px;
+    height: 18px;
+    border-left: 1px solid #525A61;
+    float: left;
+    text-align: center;
+    line-height: 18px;
+}
+#ul>li:nth-child(1){
+    border: none;
+}
+#ul>li>span{
+    color: #525A61;
+    margin-left: 20px ;
+}
+#ul>li>a{
+    text-decoration: none;
+    color: #BABABA;
+}
+#ul>li>a:hover{
+    color: #fff;
+}
+#footer>div:nth-child(3),#footer>div:nth-child(4){
+    color: #525A61;
+    text-align: center;
+    font-size: 12px;
+}
+#top{
+    text-align: center;
+    margin: 10px auto;
+    color: #BABABA;
+    font-size: 12px;
+}
+#top>a{
+    color: #BABABA;
+    text-decoration: none;
+}
+#top>a:hover{
+    color: #fff;
+}
+#center,#center2,#center3,#center4{
+    color: #525A61;
+    text-align: center;
+    font-size: 12px;
+}
+#center>a,#center3>a{
+    text-decoration: none;
+    color: #525A61;
+}
+#center3>a{
+    color: #BABABA;
+}
+#center>a:hover,#center3>a:hover{
+    color: #fff;
+}
+#ul1{
+    width: 270px;
+    height: 60px;
+    margin: auto;
+}
+#ul1>li{
+    list-style: none;
+    float: left;
+    margin-left: 40px;
+    height: 60px;
+}
+#ul1>li>a>img{
+    margin-top: 18px;
+}
+#bottom>p{
+    font-size: 12px;
+    color: #525A61;text-align: center;
+}

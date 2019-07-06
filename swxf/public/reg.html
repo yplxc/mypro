@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>暴雪游戏通行证</title>
+    <link rel="stylesheet" href="./swxfCSS/reg.css"/>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css"/>
+    <link rel="icon" href="login_img/favicon.0gxnz.ico"/>
+</head>
+<body>
+    <div id="log">
+        <img src="images/login_img/blizzard-default.1C4OH.png" alt=""/>
+    </div>
+    <div id="reg">
+       <div class="reg_wy">
+           <p>创建账号</p>
+           <a href="#">网易</a>
+           <span>或</span>
+           <p>创建暴雪游戏通行证,开启您在《守望先锋》的冒险旅程</p>
+       </div>
+        <div id="reg_inpt">
+            <input type="text" placeholder="省份证号" id="ID"/>
+            <div class="ID_if">
+                <p class="p1">请仔细核对并填写您真实有效的个人身证号码。</p>
+            </div>
+            <input type="text" placeholder="姓名" id="fname"/>
+            <input type="text" placeholder="电子邮箱" id="email"/>
+            <input type="password" placeholder="密码" id="fpwd" onKeyUp="pwStrength(this.value)" onBlur="pwStrength(this.value)"/>
+            <div class="pwd">
+                <ul class="ul">
+                    <li><i class="fa fa-info-circle fa-lg" id="li1"></i>使用8-16个字符。</li>
+                    <li><i class="fa fa-info-circle fa-lg" id="li2"></i>使用至少一个数字字符以及一个字母字符。</li>
+                    <li><i class="fa fa-info-circle fa-lg" id="li3"></i>请勿使用任何特殊字符。</li>
+                    <li><i class="fa fa-info-circle fa-lg" id="li4"></i>请勿使用与您账号名称相似的密码。</li>
+                </ul>
+            </div>
+            <div id="call">
+                <span>+86</span>
+                <input type="text" placeholder="手机号" id="phone"/>
+                <div class="phone">
+                    <p class="p2">您可以通过该手机号码进行修改密码、解除密保等操作。<a href="">了解详情<i class="fa fa-pencil-square-o fa-lg"></i></a></p>
+                </div>
+            </div>
+            <div id="yzf">
+                <input type="text" placeholder="验证码" id="yzm"/>
+                <span onclick="Cod()">获取验证码</span>
+                <div class="yzm">
+                    <p class="p3">点击“获取验证码”按钮，通过您填写的手机号码获取验证码。</p>
+                </div>
+            </div>
+        </div>
+        <div id="ridall">
+            <input type="checkbox" id="yd"/>
+            <label for="yd">
+                <span>我已阅读并接受<a href="">隐私政策 <i class="fa fa-pencil-square-o fa-lg"></i></a>。</span>
+            </label>
+        </div>
+        <div id="reg_mf">
+            <button onclick="fw()">免费注册暴雪游戏通行证</button>
+            <a href="login.html">已经有通行证了?</a>
+            <p>点击"免费注册暴雪通行证"即表示同意接受 <a href="">暴雪战网最终用户许可协议 <i class="fa fa-pencil-square-o fa-lg"></i></a>。</p>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="log2">
+            <img src="images/login_img/blizzard-default.1C4OH.png" alt=""/>
+        </div>
+        <ul id="ul">
+            <li><a href="">工作机会</a></li>
+            <li><a href="">关于</a></li>
+            <li><a href="">支持</a></li>
+            <li><a href="">媒体中心</a></li>
+            <li><a href="">API</a></li>
+            <li><a href="">安全中心</a></li>
+        </ul>
+        <div>©2019暴雪娱乐有限公司版权所有，</div>
+        <div>由上海网之易网络科技发展有限公司运营。</div>
+        <div id="top">
+            <a href="">隐私</a> |
+            <a href=""> 法律条款</a>
+        </div>
+        <div id="center">
+            <a href="">沪网文〔2017〕9633-727号</a> |
+            <a href=""> 增值电信业务经营许可证编号：沪B2－20080012</a>
+        </div>
+        <div id="center2">
+            <span>互联网违法和不良信息举报电话：0571-28090163</span> |
+            <span> 沪公网安备：31011502002167</span>
+        </div>
+        <div id="center3">
+            <a href="">适龄提示：适合13岁及以上使用 家长监护工程></a> |
+            <a href=""> 上海市网络游戏行业自律公约</a>
+        </div>
+        <div id="center4">
+            <span>上海市张江高科技园区碧波路690号5号楼301-A</span> |
+            <span> 客服电话：0571-28090163</span>
+        </div>
+        <ul id="ul1">
+            <li><a href=""><img src="images/login_img/footer-icon-cyberpolice.4aTv1.gif" alt=""/></a></li>
+            <li><a href=""><img src="images/login_img/footer-icon-zx100.3ZaAz.gif" alt=""/></a></li>
+            <li><a href=""><img src="images/login_img/footer-icon-sgs.3fzfU.gif" alt=""/></a></li>
+            <li><a href=""><img src="images/login_img/footer-icon-shjbzx.3IShX.gif" alt=""/></a></li>
+        </ul>
+        <div id="bottom">
+            <p>健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当</p>
+            <p>适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+        </div>
+    </div>
+    <script type="text/javascript" src="./swxfJS/reg.js"></script>
+</body>
+</html>

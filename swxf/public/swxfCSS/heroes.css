@@ -1,0 +1,173 @@
+body{
+	background: url(../images/heroes/ow-heroes-bg.jpg)no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#hed{
+	width: 100%;
+	position: absolute;
+	z-index: 20;
+}
+.heroes_center{
+	width: 100%;
+	height: auto;
+	border: 1px solid yellow;
+}
+.w_sm{
+	width: 1190px;
+	padding: 70px 0;
+	border: 1px solid red;
+	margin: auto;
+	box-sizing: border-box;
+	margin-top: 150px;
+}
+.d_top>h1{
+	font-style: italic
+}
+.d_top>h4{
+	line-height: 50px;
+}
+.property>ul{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.property>ul>li{
+	background: rgba(255,255,255,.5);
+	border-radius: 3px;
+	width: 24.9%;
+	text-align: center;
+}
+.property_li{
+	background: #fff !important;
+}
+.property>ul>li svg{
+	width: 18px;
+	margin-right: 5px;
+	vertical-align: middle;
+	color: #1a325e;
+}
+.property>ul>li a{
+	font-size: 1.1rem;
+	color: #1a325e;
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 8px 0;
+}
+.property>ul>li:hover{
+	background: #fff;
+}
+
+
+
+/*英雄列表*/
+.prope{
+	position: relative;
+}
+.prope:after{
+	content: "";
+	display: block;
+	background: rgba(0,188,255,.5) !important;
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.heroes_list{
+	width: 100%;
+}
+.heroes_list>ul{
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	width: 100%;
+	flex-wrap:wrap ;
+}
+.heroes_list>ul>li{
+	width: 13%;
+	min-width: 130px;
+	max-width: 164px;
+	margin-top: 15px;
+	transition: all .3s;
+	background: url(../images/heroes/hero-portrait-detailed-bg.jpg) no-repeat;
+	background-size:cover ;
+	box-sizing: inherit;
+	overflow: hidden;
+	border: 2px solid transparent;
+}
+.heroes_list>ul>li img{
+	width: 100%;
+}
+.heroes_list>ul>li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	text-align: center;
+	color: rgba(255,255,255,0.9);
+	transition: all .3s;
+	font-style: italic;
+}
+.heroes_list>ul>li>a:hover span{
+	background: #fff;
+	color: rgba(40,53,79,.9);
+}
+.heroes_list>ul>li>a:hover svg{fill: rgba(40,53,79,.9);}
+.heroes_list>ul>li:hover{
+	transform: scale(1.2);
+	z-index: 1;
+	border: 2px solid #fff;
+}
+.heroes_list>ul>li span{
+	display: block;
+	width: 100%;
+	height: 20%;
+	background: rgba(40,53,79,.9);
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+}
+.heroes_list>ul>li span>svg{
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	fill: rgba(255,255,255,0.9);
+}
+.heroes_list>ul>li span>p{
+	font-size:2rem ;
+}
+
+
+
+@media screen and (max-width:1200px ) {
+	.w_sm{
+		width: 100%;
+	}
+}
+}
+
+@media screen and (max-width:991px ) {
+	.property>ul>li svg{display: block;margin: auto;}
+	.property>ul>li:first-child>a{
+		line-height: 43px;
+	}
+}
+
+@media screen and (max-width:766px ){
+	.heroes_list>ul>li{
+		width: 32%;
+		min-width: 125px;
+		max-width: 233px;
+	}
+}
+@media screen and (max-width:390px ){
+	.heroes_list>ul>li{
+		width: 49%;
+		min-width: 125px;
+		max-width: 233px;
+	}
+}

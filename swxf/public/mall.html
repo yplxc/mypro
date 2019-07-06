@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="swxfCSS/bootstrap.min.css"/>
+		<link rel="stylesheet" href="swxfCSS/mall.css" />
+		<script src="swxfJS/jquery.min.js"></script>
+	    <script src="swxfJS/popper.min.js"></script>
+	    <script src="swxfJS/bootstrap.min.js"></script>
+	    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css"/>
+		<link rel="stylesheet" type="text/css" href="swxfCSS/public.css"/>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="mall_header">
+				<script src="swxfJS/mall_header.js"></script>
+			</div>
+			
+			<!-- 轮播图 开始-->
+			<main id="main">
+				<div id="banner">
+					<div id="btn-left">&lt;</div>
+					<ul id="ul-imgs">
+						<li>
+							<a href="javascript:;"><img style="animation: scale 4s ease forwards;"  src="images/mall_img/l4.jpg"></a>
+							<div id="btn_shop">
+								<img style="animation: move .5s ease forwards .5s;" src="images/mall_img/2a201141e3cfdd8b3bb80db7bad7772d-1200x630-cn-glow.png"/>
+								<h5 style="animation: move .5s ease forwards .7s;">隆重推出:雷神集合版</h5>
+								<a  style="animation: move .5s ease forwards 1s;" href="#">立即购买</a>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:;"><img src="images/mall_img/l3.jpg"></a>
+							<div id="btn_shop">
+								<img src="images/mall_img/f07df7142c9ec15de82837176b2bb7c9-battle-for-azeroth-cn-clipped.png"/>
+								<h5>惊魂号和戌禅回来了！</h5>
+								<a href="#">立即购买</a>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:;"><img src="images/mall_img/l2.jpg"></a>
+							<div id="btn_shop">
+								<img style="animation: move 1.5s ease forwards;" src="images/mall_img/08fb01a52b61882255838d33fe746f5b-warcraft3-reforged-zhcn-1000x500.png"/>
+								<h5></h5>
+								<a href="#">立即购买</a>
+							</div>
+						</li>
+						<li>
+							<a href="javascript:;"><img src="images/mall_img/l1.jpg"></a>
+							<div id="btn_shop">
+								<img src="images/mall_img/d8ac9dd02a30596c8dfb933c1efb26f2-scr-remastered-cn-1000.png"/>
+								<h5></h5>
+								<a href="#">立即购买</a>
+							</div>
+						</li>
+						<!--注意！最后li个数要比实际图片张数多1，最后一个li里的img是重复第一张li的图片-->
+						<li>
+							<a href="javascript:;"><img src="images/mall_img/l1.jpg"></a>
+							<div id="btn_shop">
+								<img src="images/mall_img/2a201141e3cfdd8b3bb80db7bad7772d-1200x630-cn-glow.png"/>
+								<h5>隆重推出:雷神集合版</h5>
+								<a href="#">立即购买</a>
+							</div>
+						</li>
+					</ul>
+					<ul id="ul-idxs">
+						<!--虽然li个数比实际图片张数多1，但小圆点的个数不必多1-->
+						<li class="active"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<div id="btn-right">&gt;</div>
+				</div>
+			</main>
+			
+			<!-- 轮播图结束-->
+			
+			<!--第三导航栏-->
+			<div class="bx_img">
+				<ul>
+					<li>暴雪游戏</li>
+					<li><a href="#"><img src="images/mall_img/world-of-warcraft.svg"/></a></li>
+					<li><a href="#"><img src="images/mall_img/overwatch.svg"/></a></li>
+					<li><a href="#"><img src="images/mall_img/diablo-iii.svg"/></a></li>
+					<li><a href="#"><img src="images/mall_img/hearthstone.svg"/></a></li>
+					<li><a href="#"><img src="images/mall_img/heroes-of-the-storm.svg"/></a></li>
+					<li><a href="#"><img src="images/mall_img/starcraft-ii.svg"/></a></li>
+					<li><a href="#"><img src="images/mall_img/starcraft-remastered.svg"/></a></li>
+					<li><a href="#"><img src="images/mall_img/warcraft-iii.svg"/></a></li>
+				</ul>
+			</div>
+			
+			<!--推荐-->
+			<div class="rmed">
+				<h2>推荐</h2>
+				<div class="lg-block">
+					<ul>	
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+				</ul>
+				<ul>	
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+				</ul>
+			</div>
+				<div class="sm-block">
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+		</div>
+		
+		
+		<!--精选-->
+		<div class="rmed">
+				<h2>推荐</h2>
+				<div class="lg-block">
+					<ul>	
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+				</ul>
+				<ul>	
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+				</ul>
+			</div>
+				<div class="sm-block">
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+		</div>
+		
+		<!--当下流行-->
+		
+		<div class="rmed">
+				<h2>推荐</h2>
+				<div class="lg-block">
+					<ul>	
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+				</ul>
+				<ul>	
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+				</ul>
+			</div>
+				<div class="sm-block">
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+		</div>
+		
+		<!--热门赠礼-->
+		
+		<div class="rmed">
+				<h2>推荐</h2>
+				<div class="lg-block">
+					<ul>	
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+				</ul>
+				<ul>	
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/0f2efeb8d64127edb647a95c236c92ba-prod-card-tall.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+				</ul>
+			</div>
+				<div class="sm-block">
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/mall_img/1aca1b35830358dc79764acf9dea3e02-prod-card-wide.jpg" alt="" />
+								<span>
+									<img src="images/mall_img/diablo-iii.svg" alt="" />
+									<h4><<炉石传说>></h4>
+									<h6>策路卡牌游戏</h6>
+									<p>免费游戏</p>
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+		</div>
+		<script src="swxfJS/mall_footer.js"></script>
+		</div>
+		<script type="text/javascript" src="swxfJS/mall.js">
+			
+		</script>
+	</body>
+</html>

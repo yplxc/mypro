@@ -1,0 +1,341 @@
+#hed{
+	width: 100%;
+	position: absolute;
+	z-index: 20;
+}
+.row,.container,.container-fluid,.border{
+	margin: 0;
+	padding: 0;
+}
+.container-fluid{
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 100%;
+	background: #f6f6f6;
+}
+.container-fluid>div{
+	width: 100%;
+}
+.video{
+	overflow: hidden;
+	position: relative;
+	height: 600px;
+}
+.video>video{
+	width: 2000px;
+}
+.btn_img{
+	width: 440px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -210px;
+	margin-top: -140px;
+}
+.btn_img img{
+	width: 100%;
+}
+.btn_img a{
+	display: block;
+	width: 75%;
+	height: 40px;
+	text-align: center;
+	color: white;
+	line-height: 40px;
+	border-radius:5px ;
+	margin: auto;
+	font-weight: 900;
+}
+.acolor1{
+	background: #00a5e2;
+}
+.acolor2{
+	background: #ff9c00;
+}
+/*暂停模块*/
+.tout{
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	color: white;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.tout>span:first-child{
+	width: 30px;
+	background: #ff9c00;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.tout>span{
+	display: inline-block;
+	height: 100%;
+}
+/*新闻公告*/
+#span{
+	margin: 20px 0;
+}
+.news #span>span{
+	display: block;
+	text-align: center;
+	font-size:3rem ;
+	margin: auto;
+	color: #000;
+}
+.news img{
+	width: 100%;
+}
+#content{
+	width: 100%;
+	margin: auto ;
+}
+#ul{
+	width: 100%;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+#ul>li{
+	width: 27%;
+	position: relative;
+	border: 1px solid transparent;
+}
+#ul>li:nth-child(2){
+	margin: 0 20px;
+}
+#ul>li>span{
+	width: 100%;
+	height: 40px;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	line-height: 40px;
+}
+#ul>li>span>a{
+	color: #fff;
+	font-size:0.7rem;
+}
+#ul>li:hover{
+	border: 1px solid white;
+}
+.btn_a{
+	margin: 20px 0;
+}
+.btn_a a{
+	display: block;
+	width: 240px;
+	text-align: center;
+	color: white;
+	font-weight: 900;
+	height: 40px;
+	line-height: 40px;
+	margin: auto;
+	border-radius:5px ;
+}/*各具特色的新闻*/
+.each{
+	width: 100%;
+	background: url(../images/home_img/candy.jpg) no-repeat;
+	background-size:cover ;
+	text-align: center;
+	overflow: hidden;
+}
+.each h1{
+	margin: 80px auto;
+	font-style: italic;
+}
+.each h4{
+	margin-bottom:150px; 
+}
+.show{
+	width: 100%;
+	height: 180px;
+	background:-moz-linear-gradient(right,#ccc,#000,#ccc);
+	background:-o-linear-gradient(right,#ccc,#000,#ccc);
+	background:-webkit-linear-gradient(right,#ccc,#000,#ccc);
+	background:-ms-linear-gradient(right,#ccc,#000,#ccc);
+	color: white;
+	position: relative;
+}
+.show:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.show img{
+	height:100%;
+	transition: all 0.75s;
+	transform: translateY(-280%) ;
+}
+@keyframes zx{
+	0{transform: translate(100%,-100%);opacity: 0.4;filter: drop-shadow(30px 0px 10px yellow);}
+	50%{transform: translate(-240%,0%);opacity: 0.6;filter: drop-shadow(0px -40px 10px greenyellow);}
+	75%{transform: translate(240%,0%);opacity: 0.8;filter: drop-shadow(0px 0px 20px gold);}
+	100%{transform: translate(0%);opacity: 1;filter: drop-shadow(0px -30px 10px red);}
+}
+.img{
+	animation: zx ease-in-out 1.5s;
+	animation-fill-mode: forwards;
+	
+}
+.img1{
+	animation: zx2 ease-in-out 1.5s;
+	animation-fill-mode: forwards;
+}
+@keyframes zx2{
+	0{transform: translate(0);opacity: 0.4;filter: drop-shadow(30px 0px 10px yellow);}
+	50%{transform: translate(0%,240%);opacity: 0.6;filter: drop-shadow(0px -40px 10px greenyellow);}
+	75%{transform: translate(-240%,0%);opacity: 0.8;filter: drop-shadow(0px 0px 20px gold);}
+	100%{transform: translateY(-280%,);opacity: 1;filter: drop-shadow(0px -30px 10px red);}
+}
+.imgz{
+	transform: translate(0) !important;
+}
+.font{
+	width: 30%;
+	height: 100%;
+	float: right;
+	text-align: center;
+	padding: 0 15px;
+}
+.font>div{
+	width: 50%;
+	height: 440px;
+	position: absolute;
+	left: 20%;
+	top: -150px;
+}
+.font>h1{
+	line-height: 0;
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
+/*英雄预览*/
+.hero{
+	width: 100%;
+}
+.hero>ul{
+	width: 90%;
+	margin:150px auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.hero>ul>li{
+	width: 90px;
+	height: 114px;
+	margin-left: 7px;
+	list-style: none;
+}
+.hero>ul>li>a{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	position: relative;
+}
+.hero>ul>li>a>span:first-child{
+	display: block;
+	width: 80px;
+	height: 79px;
+	overflow: hidden;
+	border-radius:10px ;
+	transform: skewX(-10deg);
+	background-position:center !important;
+	 background-size:cover !important;
+	 margin-top: 10px;
+}
+.hero>ul>li>a>span:nth-child(2){
+	padding:0px 5px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 0.9rem;
+	border-radius:5px ;
+}
+.hero>ul>li img,.hero>ul>li h1,.hero>ul>li h6{
+	display: none;
+}
+.scale{
+	transform: scaleY(1.2) scaleX(1.05) skewX(-10deg) !important;
+	margin-top: -20px !important;
+}
+.posi{
+	position: absolute;
+	bottom: 8px;
+	z-index: 1;
+	background: #f0edf2;
+}
+/*开始守望*/
+.shoping{
+	background: url(../images/home_img/candy.jpg) no-repeat;
+	text-align: center;
+	width: 100%;
+	height: 280px;
+	padding-top: 1px;
+	box-sizing: border-box;
+}
+.shoping:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.shoping img{
+	float: right;
+	margin-top: -319px;
+}
+.shoping h1{
+	font-style: italic;
+	font-size: 4rem;
+	margin-top: 50px;
+}
+.shoping h3{
+	line-height: 50px;
+}
+.shoping a{
+	display: block;
+	width: 148px;
+	height: 36px;
+	line-height: 36px;
+	font-weight: 900;
+	color: white;
+	margin: auto;
+	border-radius:5px ;
+}
+@media screen and (max-width:500px ) {
+	.btn_img{
+	width: 340px;
+	height: 80px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -160px;
+	margin-top: -80px;
+}
+}
+@media screen and (max-width:768px ) {
+#ul{
+	width: 100%;
+	list-style: none;
+	display: block;
+}
+#ul>li{
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+#ul>li:nth-child(2){
+	margin: 0 auto;
+}
+.btn_a a{
+	width: 90%;
+}
+.show{display: none;}
+.shoping img{display: none;}
+.shoping a{width: 80%;}
+}
